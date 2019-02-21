@@ -1,0 +1,49 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+header{
+    display:flex;
+    order:1;
+    padding:20px;
+}
+footer{
+    display:flex;
+    order:3;
+    padding:20px;
+}
+
+.content{
+    display:flex;
+    flex-direction: row;
+    order:2;
+    padding:20px;
+}
+
+
+
+#nav-articles{
+    
+    order:-1;
+    padding:20px;
+    
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+}
+
+#nav-one{
+    display:flex;
+    order:1;
+    padding:20px;
+}
+
+#nav-two{
+    display:flex;
+    order:1;
+    padding:20px;
+}
+
+  
